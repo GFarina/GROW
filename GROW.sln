@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{F4D07135-7C50-4787-03DA-4089F993D1E0}") = "GROW", "Assembly-CSharp.csproj", "{981EF16E-36A7-2D3B-4E18-C7FC58D16711}"
+EndProject
+Project("{F4D07135-7C50-4787-03DA-4089F993D1E0}") = "GROW", "Assembly-UnityScript.unityproj", "{F1D119D6-8141-A132-A018-A60F1E69169C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{981EF16E-36A7-2D3B-4E18-C7FC58D16711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981EF16E-36A7-2D3B-4E18-C7FC58D16711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981EF16E-36A7-2D3B-4E18-C7FC58D16711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981EF16E-36A7-2D3B-4E18-C7FC58D16711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D119D6-8141-A132-A018-A60F1E69169C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D119D6-8141-A132-A018-A60F1E69169C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D119D6-8141-A132-A018-A60F1E69169C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D119D6-8141-A132-A018-A60F1E69169C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal

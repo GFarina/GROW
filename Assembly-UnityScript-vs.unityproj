@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{F1D119D6-8141-A132-A018-A60F1E69169C}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_4_0;UNITY_3_4;UNITY_EDITOR;ENABLE_PROFILER;UNITY_IOS;UNITY_IPHONE;ENABLE_GENERICS;ENABLE_TERRAIN;ENABLE_NETWORK;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\MODELS\Standard Assets (Mobile)\Scripts\FollowTransform.js" />
+     <Compile Include="Assets\MODELS\Standard Assets (Mobile)\Scripts\ObliqueNear.js" />
+     <Compile Include="Assets\MODELS\Standard Assets (Mobile)\Scripts\RollABall.js" />
+     <Compile Include="Assets\MODELS\Standard Assets (Mobile)\Scripts\RotationConstraint.js" />
+     <Compile Include="Assets\MODELS\Standard Assets (Mobile)\Scripts\SmoothFollow2D.js" />
+     <Compile Include="Assets\MODELS\Standard Assets (Mobile)\Scripts\TapControl.js" />
+     <Compile Include="Assets\MODELS\Standard Assets (Mobile)\Scripts\ZoomCamera.js" />
+     <Compile Include="Assets\zSCRIPTS\ADDFORCE_GRAVITY.js" />
+     <Compile Include="Assets\zSCRIPTS\AI_ENEMY TARGET AND ATTACK.js" />
+     <Compile Include="Assets\zSCRIPTS\AI_Random_fast.js" />
+     <Compile Include="Assets\zSCRIPTS\AI_Random_movement.js" />
+     <Compile Include="Assets\zSCRIPTS\ATTRACT_TaggedObjects_PullRigidbodiesToPlayer_ATTRACT FLY.js" />
+     <Compile Include="Assets\zSCRIPTS\ATTRACT_TaggedObjects_PullRigidbodiesToPlayer_ATTRACT MAGGOT.js" />
+     <Compile Include="Assets\zSCRIPTS\AUDIO_RANDOMIZE.js" />
+     <Compile Include="Assets\zSCRIPTS\AUDIO_RANDOMIZE_Trigger_enter.js" />
+     <Compile Include="Assets\zSCRIPTS\AUDIO_RANDOMIZE_with Velocity.js" />
+     <Compile Include="Assets\zSCRIPTS\AUDIO_RANDOMIZE_with Velocity_OnSpecificTag.js" />
+     <Compile Include="Assets\zSCRIPTS\AddForce_DOWN.js" />
+     <Compile Include="Assets\zSCRIPTS\AddForce_LT_to_RT_Trigger.js" />
+     <Compile Include="Assets\zSCRIPTS\AddForce_OnSelf.js" />
+     <Compile Include="Assets\zSCRIPTS\AddForce_RT_to_LT_Trigger.js" />
+     <Compile Include="Assets\zSCRIPTS\AddForce_Upwards_Trigger.js" />
+     <Compile Include="Assets\zSCRIPTS\Animation_Up and Down- bobbing script.js" />
+     <Compile Include="Assets\zSCRIPTS\BUTTON_LoadLevel 1.js" />
+     <Compile Include="Assets\zSCRIPTS\BUTTON_LoadLevel.js" />
+     <Compile Include="Assets\zSCRIPTS\BUTTON_LoadRandomLevel.js" />
+     <Compile Include="Assets\zSCRIPTS\COMBINATION TO INSTANTIATE.js" />
+     <Compile Include="Assets\zSCRIPTS\CONSTRAINED_ROTATION_ZAxis.js" />
+     <Compile Include="Assets\zSCRIPTS\CONSTRAINED_TANK_DIMENSIONS-old.js" />
+     <Compile Include="Assets\zSCRIPTS\CONSTRAINED_TANK_DIMENSIONS_TOP DOWN.js" />
+     <Compile Include="Assets\zSCRIPTS\CONSTRAINED_TANK_DIMENSIONS_TOP DOWN_FOR WATER.js" />
+     <Compile Include="Assets\zSCRIPTS\CONSTRAINED_YAXIS.js" />
+     <Compile Include="Assets\zSCRIPTS\CameraShake.js" />
+     <Compile Include="Assets\zSCRIPTS\Camera_Switching_Gui.js" />
+     <Compile Include="Assets\zSCRIPTS\CharacterDamage_FadeOut_FlashHPDamage_Explode.js" />
+     <Compile Include="Assets\zSCRIPTS\CharacterDamage_FadeOut_FlashHPDamage_Explode_PARENT x 2.js" />
+     <Compile Include="Assets\zSCRIPTS\CharacterDamage_FadeOut_FlashHPDamage_Explode_PARENT.js" />
+     <Compile Include="Assets\zSCRIPTS\CharacterDamage_FadeOut_FlashHPDamage_Explode_RANDOM_OBJECT 1.js" />
+     <Compile Include="Assets\zSCRIPTS\Constrain_Transfoms.js" />
+     <Compile Include="Assets\zSCRIPTS\DAMAGE_HP_INSTANTIATE_PARENTED_OBJECTS_HUMIDITY.js" />
+     <Compile Include="Assets\zSCRIPTS\DAMAGE_HP_INSTANTIATE_PARENTED_OBJECTS_WATER_CLEAR.js" />
+     <Compile Include="Assets\zSCRIPTS\DAMAGE_HP_INSTANTIATE_PARENTED_OBJECTS_WATER_TINT.js" />
+     <Compile Include="Assets\zSCRIPTS\DISABLE.js" />
+     <Compile Include="Assets\zSCRIPTS\DISABLE_COMPONENT.js" />
+     <Compile Include="Assets\zSCRIPTS\DRAG MOVER SLING SHOT.js" />
+     <Compile Include="Assets\zSCRIPTS\DestroyObject.js" />
+     <Compile Include="Assets\zSCRIPTS\DestroySelf_InstantiateRandomRigidbody.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_Algae_SELF.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_Algae_cleaner.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_PARTICLES_Tagged_Collide_PLANKTONKILL1.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_Rigidbody_Any.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_Rigidbody_Tagged_Collide_CLOUD KILL.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_Rigidbody_Tagged_Collide_PLANKTONKILL.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_Rigidbody_Tagged_Collider 2.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_Rigidbody_Tagged_Collider 3.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_Rigidbody_Tagged_Collider.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_Rigidbody_Tagged_Collider_Instantiate_2.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_SelfandFade_SEED.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_other_taggedCollider_CLOUD.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_other_taggedCollider_PLANKTON.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroy_other_taggedCollider_WATERSPAWN.js" />
+     <Compile Include="Assets\zSCRIPTS\Destroyed_by_other_DeadReplacement.js" />
+     <Compile Include="Assets\zSCRIPTS\DontDestroyOnLoad.js" />
+     <Compile Include="Assets\zSCRIPTS\DontGoThroughThings.js" />
+     <Compile Include="Assets\zSCRIPTS\DragEffect_forAtmosphere.js" />
+     <Compile Include="Assets\zSCRIPTS\DragRigidbody_1Finger_Disable_CameraMovement 1_OLD.js" />
+     <Compile Include="Assets\zSCRIPTS\DragRigidbody_1Finger_Disable_CameraMovement_ADD_GRAVITY_OLD.js" />
+     <Compile Include="Assets\zSCRIPTS\DragRigidbody_1Finger_Disable_CameraMovement_OLD.js" />
+     <Compile Include="Assets\zSCRIPTS\DragRigidbody_1Finger_OLD.js" />
+     <Compile Include="Assets\zSCRIPTS\Explosion (Addforce Simple).js" />
+     <Compile Include="Assets\zSCRIPTS\Explosion_SUBTRACT_HP_FOR HUMIDITY.js" />
+     <Compile Include="Assets\zSCRIPTS\Explosion_SUBTRACT_HP_FOR WATER_TINT.js" />
+     <Compile Include="Assets\zSCRIPTS\Explosion_SUBTRACT_HP_Yield_Sec_AddFORCE_Parenting_ORE.js" />
+     <Compile Include="Assets\zSCRIPTS\Explosion_SUBTRACT_HP_Yield_Sec_works_for_Parenting_destroySelf.js" />
+     <Compile Include="Assets\zSCRIPTS\Explosion_new.js" />
+     <Compile Include="Assets\zSCRIPTS\FADEIN.js" />
+     <Compile Include="Assets\zSCRIPTS\FADEIN_FOR_HAZE.js" />
+     <Compile Include="Assets\zSCRIPTS\FADIN_ECLIPSE.js" />
+     <Compile Include="Assets\zSCRIPTS\FLASHING.js" />
+     <Compile Include="Assets\zSCRIPTS\FLICK(works- but not well).js" />
+     <Compile Include="Assets\zSCRIPTS\FPS.js" />
+     <Compile Include="Assets\zSCRIPTS\FaceCamera.js" />
+     <Compile Include="Assets\zSCRIPTS\FadeOUT_DestroyObject.js" />
+     <Compile Include="Assets\zSCRIPTS\FadeOUT_DestroyObject_Instantiate.js" />
+     <Compile Include="Assets\zSCRIPTS\FadeObject Press X to fade - infinite loop problem.js" />
+     <Compile Include="Assets\zSCRIPTS\FadeOut_AIRRKILL_Trigger_Destroy.js" />
+     <Compile Include="Assets\zSCRIPTS\FadeOut_Grass_Seed_lifespan.js" />
+     <Compile Include="Assets\zSCRIPTS\FadeOut_Grass_lifespan.js" />
+     <Compile Include="Assets\zSCRIPTS\FadeOut_MAGGOT_lifespan.js" />
+     <Compile Include="Assets\zSCRIPTS\FadeOut_WATERKILL_Trigger_DestroyObject.js" />
+     <Compile Include="Assets\zSCRIPTS\FadeOut_WATERKILL_Trigger_Destroy_ParentedObject.js" />
+     <Compile Include="Assets\zSCRIPTS\GRAVITY_Adding on TriggerEnter.js" />
+     <Compile Include="Assets\zSCRIPTS\GRAVITY_ON ENTER (ALL).js" />
+     <Compile Include="Assets\zSCRIPTS\GRAVITY_ZeroG_OnEnter.js" />
+     <Compile Include="Assets\zSCRIPTS\Gravity_GlobalChange.js" />
+     <Compile Include="Assets\zSCRIPTS\HorizontalOrientation.js" />
+     <Compile Include="Assets\zSCRIPTS\INSTANTIATE  CHILD AND DESTROY.js" />
+     <Compile Include="Assets\zSCRIPTS\INSTANTIATE_COLLIDER_TRIGGER_Non_Parented.js" />
+     <Compile Include="Assets\zSCRIPTS\INSTANTIATE_COLLIDER_TRIGGER_PARENTED.js" />
+     <Compile Include="Assets\zSCRIPTS\INSTANTIATE_DROP_IN_WAVE.js" />
+     <Compile Include="Assets\zSCRIPTS\INSTANTIATE_NEW_OBJECT_PARENTED.js" />
+     <Compile Include="Assets\zSCRIPTS\INSTANTIATE_OBJECT_AT_SPECIFIC_LOCATION.js" />
+     <Compile Include="Assets\zSCRIPTS\INSTANTIATE_OBJECT_with_POS_and_Rot.js" />
+     <Compile Include="Assets\zSCRIPTS\INSTANTIATE_OBJECT_with_POS_no_ROT.js" />
+     <Compile Include="Assets\zSCRIPTS\INSTANTIATE_OBJECT_with_POS_no_ROT_TRIGGER.js" />
+     <Compile Include="Assets\zSCRIPTS\IgnoreColider.js" />
+     <Compile Include="Assets\zSCRIPTS\Instantiate object at touch position.js" />
+     <Compile Include="Assets\zSCRIPTS\Instantiate object at touch position_singletap_BeganTouch.js" />
+     <Compile Include="Assets\zSCRIPTS\Instantiate object at touch position_singletap_EndedTouch.js" />
+     <Compile Include="Assets\zSCRIPTS\Instantiate_Random_Sec_RandomObject_WATERSPAWN.js" />
+     <Compile Include="Assets\zSCRIPTS\Instantiate_Random_Sec_SingleObject.js" />
+     <Compile Include="Assets\zSCRIPTS\Instantiate_Repeat_5SecDelay_RandomRigidbody.js" />
+     <Compile Include="Assets\zSCRIPTS\Instantiate_SingleObject_everyframe.js" />
+     <Compile Include="Assets\zSCRIPTS\LOAD_RandomLevel.js" />
+     <Compile Include="Assets\zSCRIPTS\LightFadeOut.js" />
+     <Compile Include="Assets\zSCRIPTS\LoadLevel_Button.js" />
+     <Compile Include="Assets\zSCRIPTS\LoadLevel_WAITSECONDS.js" />
+     <Compile Include="Assets\zSCRIPTS\Make child of parent object_Collider.js" />
+     <Compile Include="Assets\zSCRIPTS\Make child of parent object_Collider_NeedstocontactFrame.js" />
+     <Compile Include="Assets\zSCRIPTS\Make child of parent object_Collider_No Instantiation.js" />
+     <Compile Include="Assets\zSCRIPTS\Make child of parent object_Trigger.js" />
+     <Compile Include="Assets\zSCRIPTS\MultipleObjectsTrigger.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\ArcBall-not working well.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\Click_Destroy2.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\Click_destroy.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\DragRigidbody_1Finger_Disable_CameraMovement_original.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\FaceCamera_original.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\HighScoresScript.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\MATCHING_TESTT.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\MOVE BY TOUCH_WORKING.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\RAYCAST_destroy_any_object_EXPODE.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\RayCast_Individual_ON_A_PARENT_ANIMATE.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\RayCast_Individual_ON_A_PARENT_ORIGINAL.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\Raycast.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\RaycastHit_DOUBLETAP.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\RaycastHit_DOUBLETAP_works.js" />
+     <Compile Include="Assets\zSCRIPTS\OLD CONCEPT SCRIPTS\TOUCH_TO_MOVE_CONSTRAINED_YAXIS_FRICTION_NoSecondTouch.js" />
+     <Compile Include="Assets\zSCRIPTS\Orientation_VERTICLE.js" />
+     <Compile Include="Assets\zSCRIPTS\PINCH TO ZOOM.js" />
+     <Compile Include="Assets\zSCRIPTS\Particle_Nutrients_destroy.js" />
+     <Compile Include="Assets\zSCRIPTS\Particle_PHYTOPLANKTON_destroy.js" />
+     <Compile Include="Assets\zSCRIPTS\Particle_Rain_destroy.js" />
+     <Compile Include="Assets\zSCRIPTS\Particles_Stopemitting_Wait2seconds.js" />
+     <Compile Include="Assets\zSCRIPTS\Particles_Stopemitting_Wait4seconds.js" />
+     <Compile Include="Assets\zSCRIPTS\Particles_Stopemitting_Wait7seconds.js" />
+     <Compile Include="Assets\zSCRIPTS\Pullobjects.js" />
+     <Compile Include="Assets\zSCRIPTS\RAISE AND LOWER WATER.js" />
+     <Compile Include="Assets\zSCRIPTS\RAYCAST_SINGLETAP_Play_Sound.js" />
+     <Compile Include="Assets\zSCRIPTS\RAYCAST_SINGLE_TOUCH_TRANSLATE_INSTANTIATE.js" />
+     <Compile Include="Assets\zSCRIPTS\RAYCAST_TAP TANK 1.js" />
+     <Compile Include="Assets\zSCRIPTS\RAYCAST_TAP TANK.js" />
+     <Compile Include="Assets\zSCRIPTS\RE_ORIENT_SCREEN.js" />
+     <Compile Include="Assets\zSCRIPTS\ROTATE WITH ACCELEROMETER-old.js" />
+     <Compile Include="Assets\zSCRIPTS\ROTATE_with2 fingers_WIP.js" />
+     <Compile Include="Assets\zSCRIPTS\Raise and lower with velocity and Xaxis.js" />
+     <Compile Include="Assets\zSCRIPTS\Raise and lower with velocity and Yaxis.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast1_Individual_ON_A_PARENT_XandZ_SINGLETAP_DYNOMITE.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast1_Individual_ON_A_PARENT_XandZ_SINGLETAP_RIGID_BODY_INSTANTIATE.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_INSTANTIATE_MAYBE FOR STRATA.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_ON_A_PARENT_XandZ_1.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_ON_A_PARENT_XandZ_DOUBLE_TAP_EXPLODE.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_ON_A_PARENT_XandZ_DOUBLE_TAP_LightsOn.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_ON_A_PARENT_XandZ_DOUBLE_TAP_MENU.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_ON_A_PARENT_XandZ_DOUBLE_TAP_MENU_CLEAR.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_ON_A_PARENT_XandZ_SINGLETAP_2replace_LANTERN_DYNOMITE.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_ON_A_PARENT_XandZ_SINGLETAP_ELEVATOR.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_XandZ_DOUBLE_TAP_RANDOM_INSTANTIATE.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_XandZ_DOUBLE_TAP_RANDOM_INSTANTIATE_CRANE_Extend_New.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_XandZ_DOUBLE_TAP_RANDOM_INSTANTIATE_ELEVATOR_DOWN.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_XandZ_DOUBLE_TAP_RANDOM_INSTANTIATE_ELEVATOR_UP.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_XandZ_DOUBLE_TAP_REPLACE_1_OBJECT_Crane_extend.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_XandZ_DOUBLE_TAP_REPLACE_1_OBJECT_ORE.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_XandZ_PARENTED_DOUBLE_TAP_RANDOM_INST.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_Individual_XandZ_SINGLE_TAP_CLOUDS.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_MAKE OTHER INVISIBLE.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_NewNutrientLayer.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_PARENTED_XZaxis_DoubleTap_DragRigidBody_ACTIVATE.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_PARENTED_XZaxis_DoubleTap_DragRigidBody_DYNOMITE_TRIGGER.js" />
+     <Compile Include="Assets\zSCRIPTS\RayCast_PARENTED_XZaxis_DoubleTap_DragRigidBody_ERIC 1.js" />
+     <Compile Include="Assets\zSCRIPTS\Respawn_Monster.js" />
+     <Compile Include="Assets\zSCRIPTS\Restart_Button.js" />
+     <Compile Include="Assets\zSCRIPTS\Rigidbody_ExitCollider_WakeUp.js" />
+     <Compile Include="Assets\zSCRIPTS\Rigidbody_Sleep.js" />
+     <Compile Include="Assets\zSCRIPTS\Rigidbody_WakeUp.js" />
+     <Compile Include="Assets\zSCRIPTS\RingRotate.js" />
+     <Compile Include="Assets\zSCRIPTS\RingRotateFAST.js" />
+     <Compile Include="Assets\zSCRIPTS\RollABall 1.js" />
+     <Compile Include="Assets\zSCRIPTS\RotateObject_onXaxis.js" />
+     <Compile Include="Assets\zSCRIPTS\Rotate_1_Finger_IMPROVED.js" />
+     <Compile Include="Assets\zSCRIPTS\Rotate_1_Finger_Original.js" />
+     <Compile Include="Assets\zSCRIPTS\Rotate_2_Fingers.js" />
+     <Compile Include="Assets\zSCRIPTS\Rotate_with_Accellerometer-for camera.js" />
+     <Compile Include="Assets\zSCRIPTS\Rotate_with_Accellerometer.js" />
+     <Compile Include="Assets\zSCRIPTS\SCORE_LoadLevel.js" />
+     <Compile Include="Assets\zSCRIPTS\SHAKE.js" />
+     <Compile Include="Assets\zSCRIPTS\SOUND_GRAVITY.js" />
+     <Compile Include="Assets\zSCRIPTS\SPAWN_OCEAN_TEMPERATE 1.js" />
+     <Compile Include="Assets\zSCRIPTS\SPAWN_OCEAN_TEMPERATE.js" />
+     <Compile Include="Assets\zSCRIPTS\SPRITEANIMATION.js" />
+     <Compile Include="Assets\zSCRIPTS\SWIPE2.js" />
+     <Compile Include="Assets\zSCRIPTS\SmoothFollow.js" />
+     <Compile Include="Assets\zSCRIPTS\SwitchTag_Trigger.js" />
+     <Compile Include="Assets\zSCRIPTS\TEXT ON_ ABYSSAL.js" />
+     <Compile Include="Assets\zSCRIPTS\TEXT ON_ DYSPHOTIC LIGHT.js" />
+     <Compile Include="Assets\zSCRIPTS\TEXT ON_ SUNLIGHT_HIGH.js" />
+     <Compile Include="Assets\zSCRIPTS\TEXT ON_ SUNLIGHT_LOW.js" />
+     <Compile Include="Assets\zSCRIPTS\TEXT ON_ SUNLIGHT_MEDIUM.js" />
+     <Compile Include="Assets\zSCRIPTS\TEXTURE_OffestTexture.js" />
+     <Compile Include="Assets\zSCRIPTS\TILT AXIS -TESTING.js" />
+     <Compile Include="Assets\zSCRIPTS\TILT AXIS.js" />
+     <Compile Include="Assets\zSCRIPTS\TILT AXIS_360.js" />
+     <Compile Include="Assets\zSCRIPTS\TILT AXIS_FOR_CAMERA 2.js" />
+     <Compile Include="Assets\zSCRIPTS\TILT AXIS_FOR_CAMERA.js" />
+     <Compile Include="Assets\zSCRIPTS\TILT AXIS_FOR_VERTICLE.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCH AND HOLD.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCH BUTTON_WATER CURRENT.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCH TO DESTROY AND INSTANTIATE OBJECT.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCH TO MOVE_ Constrain-NortworkingWell.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCH TO MOVE_CONSTRAINED_OBJECT_2FINGER.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCHSCREENBUTTONS.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCH_TO_MOVE_CONSTRAINED 1.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCH_TO_MOVE_CONSTRAINED.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCH_TO_MOVE_CONSTRAINED_1FINGER_XandYAXIS.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCH_TO_MOVE_CONSTRAINED_2FINGER_YAXIS_works 1.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCH_TO_MOVE_CONSTRAINED_X_AXIS_FRICTION_Good 1.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCH_TO_MOVE_CONSTRAINED_YAXIS_FRICTION_Good.js" />
+     <Compile Include="Assets\zSCRIPTS\TOUCH_TO_MOVE_CONSTRAINED_YAXIS_SMOOTHED.js" />
+     <Compile Include="Assets\zSCRIPTS\TRIGGER_ON_OFF_WATERSPAWN.js" />
+     <Compile Include="Assets\zSCRIPTS\Tilit_Xworking.js" />
+     <Compile Include="Assets\zSCRIPTS\Touch and instantiate at objects position.js" />
+     <Compile Include="Assets\zSCRIPTS\Touch and instantiate at objects position_DestroyOriginal.js" />
+     <Compile Include="Assets\zSCRIPTS\Transform_ set position.js" />
+     <Compile Include="Assets\zSCRIPTS\Trigger AIR_Seed Grow.js" />
+     <Compile Include="Assets\zSCRIPTS\Trigger Fly_Egg Grow.js" />
+     <Compile Include="Assets\zSCRIPTS\Trigger Grass_ Grow1.js" />
+     <Compile Include="Assets\zSCRIPTS\Trigger Maggot Grow.js" />
+     <Compile Include="Assets\zSCRIPTS\Trigger Temperate Spawn point.js" />
+     <Compile Include="Assets\zSCRIPTS\Trigger WATER_Spore Grow.js" />
+     <Compile Include="Assets\zSCRIPTS\VIBRATE.js" />
+     <Compile Include="Assets\zSCRIPTS\Visible_FALSE.js" />
+     <Compile Include="Assets\zSCRIPTS\WATER CURRENT NEW.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_10_Instantiate_to_parent.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_1_DestroyObject.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_1_Instantiate_to_parent1.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_1_SEC_THEN CONSTRAIN.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_30_Instantiate_to_parent.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_5_DestroyObject.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_7_DestroyObject.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_DestroyObject 1.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_DestroyObject_InstantiateAtLocation.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_DestroyObject_Instantiate_simplereplacement.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_DestroyObject_Instantiate_with_velocity.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_FADEOUT.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_FADEOUT_DestroyObject_Instantiate_to_parent.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_RigidbodySleep.js" />
+     <Compile Include="Assets\zSCRIPTS\WaitSeconds_Trigger_to_collider.js" />
+     <Compile Include="Assets\zSCRIPTS\Waypoints.js" />
+     <Compile Include="Assets\zSCRIPTS\addforce_UP_WATER.js" />
+     <Compile Include="Assets\zSCRIPTS\addforce_UP_WATER_FAST.js" />
+     <Compile Include="Assets\zSCRIPTS\addforce_UP_WATER_LEFT.js" />
+     <Compile Include="Assets\zSCRIPTS\addforce_UP_WATER_lowVelocity.js" />
+     <Compile Include="Assets\zSCRIPTS\addforce_UP_WIND_LOW.js" />
+     <Compile Include="Assets\zSCRIPTS\addforce_up.js" />
+     <Compile Include="Assets\zSCRIPTS\destroy_rigidbody_any_Trigger.js" />
+     <Compile Include="Assets\zSCRIPTS\destroy_rigidbody_tagged_collider_waitseconds_kill_object.js" />
+     <Compile Include="Assets\zSCRIPTS\followtransform.js" />
+     <Compile Include="Assets\zSCRIPTS\pause.js" />
+     <None Include="Assets\MODELS\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\MODELS\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\MODELS\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\MODELS\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\MODELS\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\MODELS\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\MODELS\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\MODELS\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\MODELS\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	
