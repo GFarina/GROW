@@ -1,0 +1,7 @@
+
+
+  
+  Destroy(gameObject);
+
+
+ 

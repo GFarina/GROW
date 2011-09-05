@@ -1,0 +1,6 @@
+
+function Awake () {
+
+
+rigidbody.Sleep();
+}

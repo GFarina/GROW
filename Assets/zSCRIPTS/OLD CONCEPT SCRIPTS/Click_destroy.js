@@ -1,0 +1,1 @@
+var particleSystem1 : GameObject;var pyramid : GameObject;function OnMouseDown () {     Destroy(gameObject);}

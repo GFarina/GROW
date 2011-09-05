@@ -1,0 +1,1 @@
+var pyramid : GameObject;function OnMouseDown () {     Instantiate(pyramid, transform.position, transform.rotation);     Destroy(gameObject);}
